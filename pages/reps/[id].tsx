@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import USAMap from "react-usa-map";
 
-import Layout from '../components/Layout/Layout';
+import Layout from '../../components/Layout/Layout';
 
 export default function Home() {
   const router = useRouter()
